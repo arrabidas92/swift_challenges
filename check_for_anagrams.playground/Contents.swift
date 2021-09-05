@@ -15,4 +15,4 @@ func isAnagram(_ s1: String, _ s2: String) -> Bool {
     return listOfCharacters.count == listOfCharactersRemoved.count && listOfCharacters.sorted() == listOfCharactersRemoved.sorted()
 }
 
-isAnagram("Nope", "Note")
+isAnagram("Cristina", "cristian")
